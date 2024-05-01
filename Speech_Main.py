@@ -154,23 +154,6 @@ if __name__ == "__main__":
                     remember = open("Remember.txt","r")
                     speak("You told me to " + remember.read())
 ######################################################################################################################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#######################################################################################################################################
                 elif "shutdown the system" in query:
                     speak("Are You sure you want to shutdown")
                     shutdown = input("Do you wish to shutdown your computer? (yes/no)")
